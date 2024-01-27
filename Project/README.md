@@ -16,7 +16,5 @@ diverse and dynamic network configurations.
 # Description
 
 The code includes algorithms that allows to construct duplex networks having a tunable amount of interlayer degree correlations and tunable structural overlap.
-Before running the code it is necessary to compile all C codes using the command \emph{make}
+Before running the code it is necessary to compile all C codes using the command `make`. The repository contains an example of a duplex with N = 1000 nodes and |M| = 3000 edges.
 
-# Prepare Data
-Run the code
