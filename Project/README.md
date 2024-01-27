@@ -16,4 +16,14 @@ diverse and dynamic network configurations.
 # Description
 
 The code includes algorithms that allows to construct duplex networks having a tunable amount of interlayer degree correlations and tunable structural overlap.
-Before running the code it is necessary to compile all C codes using the command `make`. The repository contains an example of a duplex with N = 1000 nodes in each layer and M = 3000 edges.
+Before running the code it is necessary to compile all C codes using the command `make`. Furthermore, ensure that the scripts written in Bash have execute permissions: `chmod +x filename.sh`. Then execute them as `./filename.sh`
+
+The repository contains an example of a duplex network with two layers of N = 1000 nodes and M = 3000 edges. 
+
+The script `script_for_increasing_correlation_and_overlap.sh` takes two layers specified in the command line and returns a set of duplex networks with different edge overlap probabilities and interlayer degree correlations. The different targeted attack strategies to evaluate the optimal percolation of duplex networks are implemented in `percolation_basefunction.py`. To evaluate the performance of the methods, run `main.py <Number of nodes> <layer_list.txt> <output_file_path>` where `layer_list.txt` is a file containing the list of files containing the two layers and `output_file_path` is the directory in which the results will be stored.
+
+# Requirements
+
+`NetworkX`: run `pip install networkx` in your command line interface to install NetworkX.
+
+For more details refer to [NetworkX Documentation](https://networkx.org)
