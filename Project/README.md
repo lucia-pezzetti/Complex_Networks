@@ -12,3 +12,11 @@ Our findings offer a new perspective on the understanding of network dynamics, c
 highly context-specific, varying significantly across different types of duplex networks. However, the promising results on the robustness of the DCI_harmonic 
 procedure to variations in edge overlap probability open avenues for future research, particularly in exploring the applicability of these findings in more 
 diverse and dynamic network configurations.
+
+# Description
+
+The code includes algorithms that allows to construct duplex networks having a tunable amount of interlayer degree correlations and tunable structural overlap.
+Before running the code it is necessary to compile all C codes using the command \emph{make}
+
+# Prepare Data
+Run the code
