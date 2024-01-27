@@ -1,2 +1,0 @@
-layer1.txt_0.10_top_to_bottom
-layer2.txt_0.10_top_to_bottom

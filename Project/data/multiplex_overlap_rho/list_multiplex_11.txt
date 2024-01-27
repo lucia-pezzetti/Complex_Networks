@@ -1,2 +1,0 @@
-layer1.txt_rho_0.1
-layer2.txt_rho_0.1
