@@ -1,1 +1,0 @@
-python table_real_duplex.py
